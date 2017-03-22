@@ -116,7 +116,7 @@ If you want to export additional post types or draft posts, you'll have to hook 
 
 In `wp-content`, create or open the `mu-plugins` folder and create a plugin file there called `wpghs-custom-filters.php`. In it, paste and modify the below code:
 
-    <?php
+~~~ php
     /**
      * Plugin Name:  WordPress-GitHub Sync Custom Filters
      * Plugin URI:   https://github.com/benbalter/wordpress-github-sync
@@ -140,6 +140,7 @@ In `wp-content`, create or open the `mu-plugins` folder and create a plugin file
         'draft'
       ));
     });
+~~~
 
 ### Add "Edit|View on GitHub" Link ###
 
