@@ -1,13 +1,15 @@
 ---
 ID: 45
 post_title: testbbbbcccddd
-author: wp
+post_name: testbbbbcccddd
 post_date: 2017-03-21 08:22:18
-post_excerpt: ""
 layout: post
-permalink: >
-  http://wp.litefeel.com/2017/03/21/testbbbbcccddd/
+link: >
+  https://wp.litefeel.com/blog/2017/03/21/testbbbbcccddd/
 published: true
+tags: [ ]
+categories:
+  - Uncategorized
 ---
 -aaaa
 -bbbb
