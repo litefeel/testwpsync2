@@ -1,11 +1,11 @@
 ---
 ID: 2
 post_title: Sample Page
-author: wp
+post_name: sample-page
 post_date: 2017-03-17 04:49:48
-post_excerpt: ""
 layout: page
-permalink: https://wp.litefeel.com/sample-page/
+link: >
+  https://wp.litefeel.com/blog/sample-page/
 published: true
 tags: [ ]
 categories: [ ]
