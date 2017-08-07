@@ -1,12 +1,14 @@
 ---
 ID: 38
 post_title: dsafdsafd
-author: wp
+post_name: dsafdsafd
 post_date: 2017-03-21 08:04:59
-post_excerpt: ""
 layout: post
-permalink: >
-  http://wp.litefeel.com/2017/03/21/dsafdsafd/
+link: >
+  https://wp.litefeel.com/blog/2017/03/21/dsafdsafd/
 published: true
+tags: [ ]
+categories:
+  - Uncategorized
 ---
 safdsa
