@@ -1,7 +1,7 @@
 ---
 ID: 93
-post_title: hellow word
-post_name: hellow-word
+post_title: hello word
+post_name: hello-word
 post_date: 2017-08-12 02:21:32
 layout: post
 link: >
