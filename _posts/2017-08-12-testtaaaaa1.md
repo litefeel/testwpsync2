@@ -20,7 +20,7 @@ sadsafdsafdsa
 
 # HEAD1
 
-~~~
+~~~ csharp
 this is code
 this is code
 ~~~
@@ -29,3 +29,34 @@ this is code
 
 
 <https://www.litefeel.com>
+
+
+
+~~~ csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AutoRemoveAnimation: MonoBehaviour {
+
+    private Animator animator;
+	
+	void Start () {
+        animator = GetComponentInChildren<Animator>();
+	}
+	
+	void Update () {
+		if (animator != null)
+        {
+            if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+            {
+#if UNITY_EDITOR
+                GameObject.DestroyImmediate(gameObject);
+#else
+                GameObject.Destroy(gameObject);
+#endif
+            }
+        }
+	}
+}
+~~~
