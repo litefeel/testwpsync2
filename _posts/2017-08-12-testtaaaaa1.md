@@ -1,7 +1,7 @@
 ---
 ID: 104
-post_title: testtestaaaa
-post_name: testtaaaaa1
+post_title: 中文名字1
+post_name: 中文名字2
 post_date: 2017-08-12 09:48:29
 layout: post
 link: >
